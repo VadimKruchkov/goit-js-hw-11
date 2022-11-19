@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export class fetchGallery {
   #BASE_URL = 'https://pixabay.com/api/';
-  #API_KEY = '29948630-157933f0e62faad2f834f63f1';
+  #API_KEY = '31328328-71f796aed52050f73442a22c1';
 
   constructor() {
     this.page = 1;
@@ -22,5 +22,8 @@ export class fetchGallery {
         safesearch: true,
       },
     });
+  }
+  incrementPage() {
+    this.page += 1;
   }
 }
