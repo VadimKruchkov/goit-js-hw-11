@@ -30,7 +30,8 @@ input {
   max-width: 250px;
   width: 100%;
   margin-right: 15px;
-  border-radius: 4px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 input:hover, input:focus {
   outline-color: rgb(6, 114, 60);
@@ -70,20 +71,20 @@ img {
 
 .submit {
   width: 100px;
-  height: 35px;
+  height: 40px;
   background-color: rgba(240, 236, 14, 0.808);
   color: rgb(84, 101, 202);
   font-size: 18px;
   font-weight: 700;
+  border: 1px solid black;
   border-radius: 4px;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .submit:hover, .submit:focus {
   background-color: rgb(84, 101, 202);
   color: rgba(240, 236, 14, 0.808);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .load-more {
