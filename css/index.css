@@ -1,6 +1,6 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 body {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(246, 247, 236);
 }
 
 * {
@@ -64,6 +64,10 @@ input:hover, input:focus {
   width: 100%;
 }
 
+img {
+  border-radius: 10px 10px 0px 0px;
+}
+
 .submit {
   width: 100px;
   height: 35px;
@@ -104,8 +108,8 @@ input:hover, input:focus {
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
-  background-color: rgba(0, 0, 0, 0.45);
-  border-radius: 0px 0px 4px 4px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0px 0px 10px 10px;
 }
 
 .info-item {
