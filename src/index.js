@@ -3,6 +3,7 @@ import { formEl, galleryEl, scrollEl } from '../src/js/refs';
 import { fetchGallery } from './js/fetchImages';
 import { markupGallery } from './js/markupGallery';
 import { smoothScrolling } from './js/smoothScrolling';
+import { scrollToTop } from './js/scrollToTop';
 
 const NewGallery = new fetchGallery();
 formEl.addEventListener('submit', onSubmitForm);
